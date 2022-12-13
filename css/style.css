@@ -1,0 +1,239 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.youtube {
+  appearance: none;
+  cursor: pointer;
+}
+.youtube::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.youtube:hover::before {
+  background-color: rgb(49, 47, 47);
+}
+.youtube:checked::before {
+  background-color: #fff;
+  content: "\f167";
+}
+.facebook {
+  appearance: none;
+  cursor: pointer;
+}
+.facebook::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(23, 23, 136);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.facebook:hover::before {
+  background-color: rgb(49, 47, 47);
+}
+.facebook:checked::before {
+  background-color: #fff;
+  content: "\f082";
+}
+/* twitter */
+.twitter {
+  appearance: none;
+  cursor: pointer;
+}
+.twitter::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #183153;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.twitter:hover::before {
+  background-color: rgb(49, 47, 47);
+}
+.twitter:checked::before {
+  background-color: #fff;
+  content: "\f081";
+}
+/* telegram */
+.telegram {
+  appearance: none;
+  cursor: pointer;
+}
+.telegram::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2aabee;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.telegram:hover::before {
+  background-color: rgb(49, 47, 47);
+}
+.telegram:checked::before {
+  background-color: #fff;
+  content: "\f2c6";
+}
+/* google */
+.google {
+  appearance: none;
+  cursor: pointer;
+}
+.google::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #183153;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.google:hover::before {
+  background-color: rgb(49, 47, 47);
+}
+.google:checked::before {
+  background-color: #fff;
+  content: "\f1a0";
+}
+/* instagram */
+.instagram {
+  appearance: none;
+  cursor: pointer;
+}
+.instagram::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #183153;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.instagram:hover::before {
+  background-color: rgb(49, 47, 47);
+}
+.instagram:checked::before {
+  background-color:#fff ;
+  content: "\f16d";
+}
+/* Tik tok */
+.tiktok {
+  appearance: none;
+  cursor: pointer;
+}
+.tiktok::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+ 
+}
+.tiktok:hover::before {
+  background-color: rgb(49, 47, 47);
+}
+.tiktok:checked::before {
+  background-color: #fff;
+  content: "\e07b";
+}
+
+input {
+  appearance: none;
+  cursor: pointer;
+}
+input::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+input:hover::before {
+  background-color: rgb(49, 47, 47);
+}
+input:checked::before {
+  background-color: #fff;
+  content: "\f167";
+}
